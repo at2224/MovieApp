@@ -7,7 +7,7 @@ dotenv.config();
 const MongoClient = mongodb.MongoClient
 const mongo_username = process.env['MONGO_USERNAME'];
 const mongo_password = process.env['MONGO_PASSWORD'];
-const uri = `mongodb+srv://${mongo_username}:${mongo_password}@cluster0.wwjat.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
+const uri = `mongodb+srv://${mongo_username}:${mongo_password}@cluster0.jbyvu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
 
 const port = 8000;
 
